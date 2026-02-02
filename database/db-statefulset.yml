@@ -22,7 +22,6 @@ spec:
                 configMapKeyRef:
                   name: db-config
                   key: MYSQL_DATABASE
-SHOW BINARY LOG STATUS;
             - name: MYSQL_PASSWORD
               valueFrom:
                 secretKeyRef:
